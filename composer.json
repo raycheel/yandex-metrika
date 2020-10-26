@@ -1,13 +1,12 @@
 {
-  "name": "alexusmai/yandex-metrika",
+  "name": "raycheel/yandex-metrika",
   "description": "Laravel - Yandex Metrika",
   "keywords": ["laravel", "yandex", "metrika"],
-  "homepage": "https://github.com/alexusami/yandex-metrika",
+  "homepage": "https://github.com/raycheel/yandex-metrika",
   "license": "MIT",
   "authors": [
     {
-      "name": "Alex Manekin",
-      "email": "alexusmai@gmail.com"
+      "name": "EVG M"
     }
   ],
   "require": {
@@ -17,16 +16,16 @@
   },
   "autoload": {
     "psr-4": {
-      "Alexusmai\\YandexMetrika\\": "src"
+      "Raycheel\\YandexMetrika\\": "src"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Alexusmai\\YandexMetrika\\YandexMetrikaServiceProvider"
+        "Raycheel\\YandexMetrika\\YandexMetrikaServiceProvider"
       ],
       "aliases": {
-        "YandexMetrika": "Alexusmai\\YandexMetrika\\YandexMetrikaFacade"
+        "YandexMetrika": "Raycheel\\YandexMetrika\\YandexMetrikaFacade"
       }
     }
   }
